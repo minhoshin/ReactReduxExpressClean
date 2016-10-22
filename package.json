@@ -4,7 +4,8 @@
   "description": "originalReactReduxExpressClean",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --host 0.0.0.0"
+    "start": "webpack-dev-server --hot --host 0.0.0.0",
+    "node": "babel server --out-dir build && webpack && nodemon build/index.js"
   },
   "repository": {
     "type": "git",

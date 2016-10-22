@@ -4,6 +4,7 @@ import { Link } from 'react-router'
 class LogIn extends React.Component {
 
   render () {
+    $.ajax
     return (
       <div>
         <h1>LogIn Page</h1>
